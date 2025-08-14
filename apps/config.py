@@ -15,6 +15,7 @@ class Config(object):
 
     # This will create a file in <app> FOLDER
     SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'db.sqlite3')
+    #SQLALCHEMY_DATABASE_URI = 'mysql://username:password@1host:port/dbname')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
